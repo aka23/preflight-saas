@@ -5,12 +5,12 @@
 本番運用中のサービスではありません。
 
 ## スタック
-- Next.js 15（App Router）+ TypeScript + Tailwind CSS v4
+- Next.js 16（App Router）+ TypeScript + Tailwind CSS v4
 - Supabase Auth（メール + パスワード）/ Postgres RLS
 - Stripe Checkout + Webhook（**テストモードのみ**。`sk_test_` 以外のキーでは Checkout を作成しない）
 
 ## 本番URL
-準備中（下記「デプロイ手順」参照）
+https://preflight-saas.vercel.app
 
 ## 画面
 | パス | 内容 |
